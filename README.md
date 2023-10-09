@@ -100,14 +100,14 @@ Follow these steps to execute the performance test:
 I’ve completed a performance test on frequently used API for test App. 
 Test executed for the below-mentioned scenario.
 
-400 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 33.334 And Total Concurrent API requested: 2000.
-600 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 48 And Total Concurrent API requested: 3000.
-800 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 67 And Total Concurrent API requested: 4000.
-1000 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 83 And Total Concurrent API requested: 5500.
+- 400 Concurrent Requests with 1 Loop Count; Avg TPS for Total Samples is ~ 33.334 And Total Concurrent API requested: 2000.
+- 600 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 48 And Total Concurrent API requested: 3000.
+- 800 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 67 And Total Concurrent API requested: 4000.
+- 1000 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 83 And Total Concurrent API requested: 5500.
+- While executing 800 concurrent requests, found  5 requests got a connection timeout and an error rate is 0.0%. 
 
-While executing 800 concurrent requests, found  5 requests got a connection timeout and an error rate is 0.0%. 
-
-Summary: The server can handle almost a concurrent 3800 API calls with an error rate  of 0.94% almost 1% error rate.
+- Summary: The server can handle almost a concurrent 3800 API calls with an error rate  of 0.94% almost 1% error rate.
+- https://github.com/Tashfiquzzaman/performance-Testing/blob/0a56df5cd462fcc5358d2b7d183ad2716b97441b/Test1_400_TPS.JPG
 
 
 ## Conclusion
