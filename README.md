@@ -11,7 +11,7 @@
   - [Test Plan](#test-plan)
   - [Collection of API](#collection-of-api)
   - [Test Execution](#test-execution)
-    
+  - [HTML Report](#HTML-Report)
   - [Conclusion](#conclusion)
 
 ## Introduction
@@ -128,7 +128,8 @@ Test executed for the below-mentioned scenario.
 ![7](Test1_1000_RTP.JPG)
 
 
-### - Summary: The server can handle almost a concurrent 3800 API calls with an error rate  of 0.94% almost 1% error rate.
+ Summary: The server can handle almost a concurrent 3800 API calls with an error rate  of 0.94% almost 1% error rate.
+ 
 ## Conclusion
 
 Performing performance testing on the Booking website helps ensure that it can handle various loads and traffic conditions effectively. By following this guide, you can assess the website's performance and make improvements as needed.
