@@ -14,8 +14,6 @@
     
   - [Conclusion](#conclusion)
 
-## Performance Testing for Booking  Website
-
 ## Introduction
 
 This document explains how to run a performance test with JMeter against the Booking  Website. The performance test will help evaluate the website's performance under various load conditions.
@@ -108,14 +106,29 @@ Test executed for the below-mentioned scenario.
 
 - # HTML Reports         |  Errors
 :-------------------------:|:-------------------------:
-  - 400 Concurrent Requests with 2000 APIs (TPS).
+ -  400 Concurrent Requests with 2000 APIs (TPS).
    
--![1](https://github.com/Tashfiquzzaman/performance-Testing/blob/master/Test1_400_TPS.JPG?raw=true)
+  ![1](https://github.com/Tashfiquzzaman/performance-Testing/blob/master/Test1_400_TPS.JPG?raw=true)
 
-- 400 Concurrent Requests with 2000 APIs (RTP).
--![2](Test1_400_RTP.JPG)
+  400 Concurrent Requests with 2000 APIs (RTP).
+  ![2](Test1_400_RTP.JPG)
+   
+ 600 Concurrent Requests with 3000 APIs (Statistics Result).
+ ![4](Test1_600_RTP.JPG)
 
-- Summary: The server can handle almost a concurrent 3800 API calls with an error rate  of 0.94% almost 1% error rate.
+ 600 Concurrent Requests with 3000 APIs (TPS).
+ ![3](Test1_600_TPS.JPG)
+ 
+ 800 Concurrent Requests with 4000 APIs (Statistics Result 0.03% error).
+  ![5](Test1_800_Statistics.JPG)
+   800 Concurrent Requests with 4000 APIs (Summary).
+  - ![6](Test1_800_Summary.JPG)
+
+1000 Concurrent Requests with 5000 APIs (TTPs).
+![7](Test1_1000_RTP.JPG)
+
+
+### - Summary: The server can handle almost a concurrent 3800 API calls with an error rate  of 0.94% almost 1% error rate.
 ## Conclusion
 
-Performing performance testing on the BanglaPuzzle website helps ensure that it can handle various loads and traffic conditions effectively. By following this guide, you can assess the website's performance and make improvements as needed.
+Performing performance testing on the Booking website helps ensure that it can handle various loads and traffic conditions effectively. By following this guide, you can assess the website's performance and make improvements as needed.
