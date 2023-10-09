@@ -104,12 +104,18 @@ Test executed for the below-mentioned scenario.
 - 600 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 48 And Total Concurrent API requested: 3000.
 - 800 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 67 And Total Concurrent API requested: 4000.
 - 1000 Concurrent Request with 1 Loop Count; Avg TPS for Total Samples is ~ 83 And Total Concurrent API requested: 5500.
-- While executing 800 concurrent requests, found  5 requests got a connection timeout and an error rate is 0.0%. 
+- While executing 800 concurrent requests, found  5 requests got a connection timeout and an error rate is 0.0%.
+
+- # HTML Reports         |  Errors
+:-------------------------:|:-------------------------:
+  - 400 Concurrent Requests with 2000 APIs (TPS).
+   
+-![1](https://github.com/Tashfiquzzaman/performance-Testing/blob/master/Test1_400_TPS.JPG?raw=true)
+
+- 400 Concurrent Requests with 2000 APIs (RTP).
+-![2](Test1_400_RTP.JPG)
 
 - Summary: The server can handle almost a concurrent 3800 API calls with an error rate  of 0.94% almost 1% error rate.
-- https://github.com/Tashfiquzzaman/performance-Testing/blob/0a56df5cd462fcc5358d2b7d183ad2716b97441b/Test1_400_TPS.JPG
-
-
 ## Conclusion
 
 Performing performance testing on the BanglaPuzzle website helps ensure that it can handle various loads and traffic conditions effectively. By following this guide, you can assess the website's performance and make improvements as needed.
